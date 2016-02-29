@@ -1,0 +1,503 @@
+/*
+MODULAR FONT SIZE: 9, 12, 16, 21, 28, 37, 50, 67, 89
+MODULAR MATH - 3:4
+*/
+
+/*
+#E55361
+#4D4D4D
+#999999
+*/
+
+html {
+    background: white;
+    color: #4D4D4D;
+    margin: auto;
+    width: 95%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4.5em;
+    font-weight: 400;
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+
+h2 {
+    font-size: 2.2em;
+    text-align: center;
+    color: #999999;
+}
+
+h2 span {
+    color: #E55361;
+}
+
+.contact {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 45px 0 55px 0;
+}
+
+.contact span {
+    color: #E55361;
+}
+
+.contact a:link, a:visited {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: -11px;
+    padding: 0 5px;
+}
+
+h3 {
+    font-size: 2em;
+    color: #999999;
+    margin: 15px 0;
+}
+
+.objective {
+    margin-top: 50px;
+    color: #999999;
+}
+
+.objective h3 {
+    color: #E55361;
+    margin: 10px 10px 15px 10px;
+}
+
+.objective p {
+    margin: 10px;
+}
+
+.objective, .skills {
+    border: 2px dashed #999999;
+    margin: 50px auto;
+}
+
+p, ul {
+    font-size: 1.12em;
+    line-height: 28px;
+}
+
+.exp1, .exp2, .exp3, .moment h4, .education h4 {
+    margin: 25px 0 5px 0;
+}
+
+.experience, .moment, .education {
+    margin: 50px 0 20px 0;
+}
+
+.education {
+    margin-bottom: 50px;
+}
+
+.experience h3, .skills h3, .moment h3, .education h3 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #999999;
+}
+
+.experience li, .moment li {
+    margin-left: 15px;
+}
+
+h4, h4 ul {
+    font-size: 1.41em;
+    line-height: 30px;
+}
+
+h4 span {
+    font-size: 0.65em;
+    color: #E55361;
+}
+
+.skills h3 {
+    margin: 10px 10px 15px 10px;
+}
+
+.skills h4 {
+    color: #E55361;
+    margin: 25px 10px 5px 10px;
+}
+
+.skills ul {
+    margin: 5px 10px 10px 10px;
+}
+
+.skills li {
+    color: #FFFFFF;
+    margin: 0 0 5px 0;
+    padding-left: 7px;
+}
+
+.hc, .cc, .pr, .ux {
+    background: #E55361;
+    width: 30%;
+    -webkit-animation-name: skills;
+    -moz-animation-name: skills;
+    animation-name: skills;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes skills {
+    from {width: 30%;}
+    to {width: 85%;}
+}
+
+@-moz-keyframes skills {
+    from {width: 30%;}
+    to {width: 85%;}
+}
+
+@keyframes skills {
+    from {width: 30%;}
+    to {width: 85%;}
+}
+
+.wf {
+    background: #E55361;
+    width: 30%;
+    -webkit-animation-name: skills1;
+    -moz-animation-name: skills1;
+    animation-name: skills1;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes skills1 {
+    from {width: 30%;}
+    to {width: 80%;}
+}
+
+@-moz-keyframes skills1 {
+    from {width: 30%;}
+    to {width: 80%;}
+}
+
+@keyframes skills1 {
+    from {width: 30%;}
+    to {width: 80%;}
+}
+
+.js, .sb, .pd, .gd {
+    background: #E55361;
+    width: 30%;
+    -webkit-animation-name: skills2;
+    -moz-animation-name: skills2;
+    animation-name: skills2;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes skills2 {
+    from {width: 30%;}
+    to {width: 75%;}
+}
+
+@-moz-keyframes skills2 {
+    from {width: 30%;}
+    to {width: 75%;}
+}
+
+@keyframes skills2 {
+    from {width: 30%;}
+    to {width: 75%;}
+}
+
+.rh {
+    background: #E55361;
+    width: 30%;
+    -webkit-animation-name: skills3;
+    -moz-animation-name: skills3;
+    animation-name: skills3;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes skills3 {
+    from {width: 30%;}
+    to {width: 60%;}
+}
+
+@-moz-keyframes skills3 {
+    from {width: 30%;}
+    to {width: 60%;}
+}
+
+@keyframes skills3 {
+    from {width: 30%;}
+    to {width: 60%;}
+}
+
+.php {
+    background: #E55361;
+    width: 30%;
+    -webkit-animation-name: skills4;
+    -moz-animation-name: skills4;
+    animation-name: skills4;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes skills4 {
+    from {width: 30%;}
+    to {width: 55%;}
+}
+
+@-moz-keyframes skills4 {
+    from {width: 30%;}
+    to {width: 55%;}
+}
+
+@keyframes skills4 {
+    from {width: 30%;}
+    to {width: 55%;}
+}
+
+p, h1, h2, h3, h4, ul, li, div, span, a, img {
+    /*border: 1px dashed red;*/
+}
+
+@media (min-width: 400px) {
+    html {
+        background: white;
+        width: 90%;
+    }
+
+    h1, p, ul, h4, h4 ul, h4 span, .experience li, .moment li {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing function: ease;
+        -moz-transition-timing function: ease;
+        transition-timing function: ease;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    p, ul {
+        font-size: 1.25em;
+    }
+
+    h4, h4 ul {
+        font-size: 1.55em;
+        line-height: 30px;
+    }
+
+    h4 span {
+        font-size: 0.75em;
+    }
+
+    .experience li, .moment li {
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 550px) {
+    .contact, img {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing function: ease;
+        -moz-transition-timing function: ease;
+        transition-timing function: ease;
+    }
+
+    .contact {
+        font-size: 1.4em;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .row1, .row2{
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+    }
+
+    .second, .fourth {
+        padding-left: 5px;*/
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing function: ease;
+        -moz-transition-timing function: ease;
+        transition-timing function: ease;
+    }
+
+    h1 {
+        font-size: 5.3em;
+    }
+}
+
+@media (min-width: 850px) {
+    h1, h2, .contact {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing function: ease;
+        -moz-transition-timing function: ease;
+        transition-timing function: ease;
+    }
+
+    h1 {
+        font-size: 6em;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 2.4em;
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .contact {
+        font-size: 1.5em;
+        margin: 45px 0;
+    }
+
+    .content {
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+    }
+
+    .col1 {
+        width: 58%;
+    }
+
+    .col2 {
+        width: 39%;
+    }
+
+    .objective, .skills {
+        margin-top: 25px;
+    }
+
+    .objective h3 {
+        padding-bottom: 7px;
+    }
+}
+
+
+@media (min-width: 960px) {
+    html, .contact, .row1, .row2, .second, .fourth {
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing function: ease;
+        -moz-transition-timing function: ease;
+        transition-timing function: ease;
+    }
+
+    html {
+        width: 80%;
+    }
+
+    .contact {
+        text-align: right;
+        font-size: 1.6em;
+    }
+
+    .row1, .row2 {
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+    }
+
+    .second, .fourth {
+        padding-left: 5px;*/
+
+    }
+
+}
